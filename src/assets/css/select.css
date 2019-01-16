@@ -1,0 +1,82 @@
+@charset "utf-8";
+.select-1{font-size:.2rem;}
+.select-1-tab{border-bottom:.02rem solid #ccc;padding:.5rem;color:#999; position:relative;overflow:hidden;}
+.select-1-tab .icon-1{ display:block;width:1rem; margin-top:.5rem;}
+.select-1-tab .value{max-width:70%;padding-right:.5rem;}
+.select-bg{width:100%;height:100%;position: fixed;top:0;left:0;opacity:.6; background:#000;z-index:2000;}
+.color-1{color:#000;}
+.color-2{color:#ccc;}
+.select-show{width:100%;max-height:20rem; position: fixed;bottom:0;left:0;z-index:2001;}
+.select-show .title{padding:.5rem;font-size:.8rem;background:#eee;}
+.select-show .selcet{background:#fff;max-height:15rem;overflow-y:auto;}
+.select-show .selcet li{border-bottom:.02rem solid #ccc;padding:.5rem;font-size:.8rem;}
+.select-show .selcet li .icon{float:left;display: block;width:1rem;height:1rem;margin-top:.1rem;margin-right:.5rem;border:.02rem solid #ccc;border-radius:50%;}
+.select-show .selcet li .icon i{display:block;width:.5rem;height:.5rem;margin:.25rem auto;border-radius:50%;background:#ccc;}
+.select-show .selcet li.hover .icon{border:.02rem solid #333;background:#333;}
+.select-show .selcet li.hover .icon i{background:#ff8a00;}
+.select-show .selcet .ul0{max-height:14rem;overflow-y: auto;}
+
+.select-show2{width:100%;height:20rem; position: fixed;bottom:0;left:0;z-index:2001;background:#fff;overflow:hidden;}
+.select-show2 .title{padding:.5rem;font-size:.8rem;background:#eee;}
+.select-show2 .selcet{background:#fff; position:relative;margin-top:5rem;}
+.select-show2 .selcet ul{width:100%;position:absolute;top:0;left:0;transition: transform .25s ease-in-out,visibility .25s,-webkit-transform .25s ease-in-out;z-index:100;color:#888;}
+.select-show2 .selcet li{border-bottom:.02rem solid #ccc;padding:.5rem;font-size:.8rem;}
+.select-show2 .selcet li .icon{float:left;display: block;width:1rem;height:1rem;margin-top:.1rem;margin-right:.5rem;border:.02rem solid #ccc;border-radius:50%;}
+.select-show2 .selcet li .icon i{display:block;width:.5rem;height:.5rem;margin:.25rem auto;border-radius:50%;background:#ccc;}
+.select-show2 .selcet li.hover{font-size:1.1rem;text-indent:.5rem;color:#000;}
+.select-show2 .selcet .ul0{max-height:14rem;overflow-y: auto;}
+.select-show2 .selcet-hover{width:100%;left:0;top:0; position: absolute;z-index:101;color:#000; text-align: center}
+.select-show2 .selcet-hover i{display:inline-block;width:96%;height:2rem;box-shadow:0 0 1.2rem #ccc inset;border:.1rem solid #ff8a00;border-radius:.5rem;text-indent:1rem; text-align: left;}
+.select-show2 .con{height:16rem;margin-top:1rem;overflow:hidden;position:relative;z-index:103;}
+.select-show2 .con .bgup{width:100%;height:30%;position: absolute;top:0;
+	left:0;z-index:102;
+  background-image: -webkit-linear-gradient(top, rgba(231,51, 104, 0) 100%, rgba(231,51, 104, 1) 0);
+  background-image: -moz-linear-gradient(top, rgba(231,51, 104, 0) 100%, rgba(231,51, 104, 1) 0);
+  background-image: -o-linear-gradient(top, rgba(231,51, 104, 0) 100%, rgba(231,51, 104, 1) 0);
+  background-image: linear-gradient(top, rgba(255,255, 255, 0) 100%, rgba(255,255, 255, 1) 0);
+
+}
+.select-show2 .con .bgdown{width:100%;height:30%;position: absolute;bottom:0;
+	left:0;z-index:102;
+  background-image: -webkit-linear-gradient(top, rgba(231,51, 104, 1) 100%, rgba(231,51, 104, 1) 0);
+  background-image: -moz-linear-gradient(top, rgba(231,51, 104, 0) 100%, rgba(231,51, 104, 1) 0);
+  background-image: -o-linear-gradient(top, rgba(231,51, 104, 0) 100%, rgba(231,51, 104, 1) 0);
+  background-image: linear-gradient(top, rgba(255,255, 255, 1) 100%, rgba(255,255, 255, 0) 0);
+
+}
+
+.select-show3{width:100%;height:20rem; position: fixed;bottom:-110%;left:0;z-index:2001;background:#fff;overflow:hidden;}
+.select-show3.show{bottom:0;}
+.select-show3 .title{padding:.5rem;font-size:.8rem;background:#eee;}
+.select-show3 .selcet{width:100%;background:#fff; position:relative;margin-top:5rem;}
+.select-show3 .selcetbox{width:33.333%; height:100%;position: absolute;z-index:103;}
+.select-show3 .selcet ul{width:33.333%;position:absolute;top:0;transition: transform .25s ease-in-out,visibility .25s,-webkit-transform .25s ease-in-out;z-index:100;color:#888;}
+.select-show3 .selcet li{border-bottom:.02rem solid #ccc;margin:0 .2rem;padding:.5rem 0;font-size:.8rem;height:2.5rem;}
+.select-show3 .selcet li .value{height:2.5rem;display: table-cell;vertical-align:middle}
+.select-show3 .selcet li .icon{float:left;display: block;width:1rem;height:1rem;margin-top:.1rem;margin-right:.5rem;border:.02rem solid #ccc;border-radius:50%;}
+.select-show3 .selcet li .icon i{display:block;width:.5rem;height:.5rem;margin:.25rem auto;border-radius:50%;background:#ccc;}
+.select-show3 .selcet li.hover{font-size:1.1rem;text-indent:.5rem;color:#000;}
+.select-show3 .selcet .ul0{max-height:14rem;overflow-y: auto;}
+.select-show3 .selcet-hover{width:100%;left:0;top:0; position: absolute;z-index:101;color:#000; text-align: center;height:3.5rem;}
+.select-show3 .selcet-hover i{display:inline-block;width:98%;height:3.5rem;box-shadow:0 0 1.2rem #ccc inset;border:.1rem solid #ff8a00;border-radius:.5rem;text-indent:1rem; text-align: left;}
+.select-show3 .con{height:16rem;margin-top:1rem;overflow:hidden;position:relative;z-index:103;}
+.select-show3 .con .bgup{width:100%;height:30%;position: absolute;top:0;
+  left:0;z-index:102;
+  background-image: -webkit-linear-gradient(top, rgba(231,51, 104, 0) 100%, rgba(231,51, 104, 1) 0);
+  background-image: -moz-linear-gradient(top, rgba(231,51, 104, 0) 100%, rgba(231,51, 104, 1) 0);
+  background-image: -o-linear-gradient(top, rgba(231,51, 104, 0) 100%, rgba(231,51, 104, 1) 0);
+  background-image: linear-gradient(top, rgba(255,255, 255, 0) 100%, rgba(255,255, 255, 1) 0);
+
+}
+.select-show3 .con .bgdown{width:100%;height:30%;position: absolute;bottom:0;
+  left:0;z-index:102;
+  background-image: -webkit-linear-gradient(top, rgba(231,51, 104, 1) 100%, rgba(231,51, 104, 1) 0);
+  background-image: -moz-linear-gradient(top, rgba(231,51, 104, 0) 100%, rgba(231,51, 104, 1) 0);
+  background-image: -o-linear-gradient(top, rgba(231,51, 104, 0) 100%, rgba(231,51, 104, 1) 0);
+  background-image: linear-gradient(top, rgba(255,255, 255, 1) 100%, rgba(255,255, 255, 0) 0);
+
+}
+.left0{left:0;}
+.left66{left:66.6666%;}
+
+.left33{left:33.3333%;}

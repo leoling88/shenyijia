@@ -1,0 +1,3 @@
+//公共
+export const COM_LOADING_STATUS = 'COM_LOADING_STATUS'
+export const COM_ALERT_STATUS = 'COM_ALERT_STATUS'

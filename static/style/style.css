@@ -1,0 +1,3 @@
+.scroll-wrap{height:100%;overflow:hidden;z-index:1; position: relative;}
+.scroll-wrap-box{transition: transform .3s ease-in-out,visibility .3s,-webkit-transform .3s ease-in-out;}
+.mart-60{margin-top:3rem;}
