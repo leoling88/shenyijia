@@ -1,11 +1,9 @@
 <template>
   <div id="app" >
     <div class="vc-wrap">
-        <v-header :title="title" :menu-display="menuDisplay"></v-header>
-        <v-loading :show="loadingShow"></v-loading> 
-        <router-view></router-view>
-
+      
     </div>
+    <router-view></router-view>
   </div>
 </template>
 <script>
@@ -58,14 +56,13 @@ export default {
 
 <style>
 
-    #app{width:100%;height:100%; position:absolute;overflow-x:hidden;overflow-y:auto;}
-    .vc-wrap{width:100%;height:100%;position:relative;top:0;left:0;}
+.vc-wrap{width:100%;max-width:1920px;margin:0 auto; position: relative;}
 
-    .clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
-    .clearfix { *zoom:1; }
-    .left-0{left:0;}
-    .top-0{top:0;}
-    .right-0{right:0;}
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+.left-0{left:0;}
+.top-0{top:0;}
+.right-0{right:0;}
 
 .content-box{position: absolute;width:100%;height:100%;overflow:hidden;  transition: transform .38s ease-in-out,visibility .38s,-webkit-transform .38s ease-in-out;background:#fff;z-index:1001;}
 

@@ -5,11 +5,16 @@ import lists from '@/pages/lists'
 Vue.use(Router)
 
 export default new Router({
+  /*
+  *pc端
+  */
   routes: [
     {
-      path: '/home',
+      path: '/pc',
       name: 'home',
-      component: home
+      component: function (resolve) {
+        require(['../pc/home'], resolve);
+      },
     },
     {
       path: '/lists',
